@@ -7,8 +7,8 @@
 	<groupId>com.ay.metrics</groupId>
 	<artifactId>metrics-extentions</artifactId>
 	<version>0.0.1</version>
-
 	<name>metrics extentions</name>
+
 	<description>metrics-extentions</description>
 
 	<properties>
