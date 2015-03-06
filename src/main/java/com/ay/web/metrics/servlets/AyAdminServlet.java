@@ -13,7 +13,7 @@ import com.codahale.metrics.servlets.AdminServlet;
  *         Feb 16, 2015
  *
  */
-public class IamAdminServlet extends AdminServlet {
+public class AyAdminServlet extends AdminServlet {
 	private static final long serialVersionUID = 6816343289714206398L;
 
 }
