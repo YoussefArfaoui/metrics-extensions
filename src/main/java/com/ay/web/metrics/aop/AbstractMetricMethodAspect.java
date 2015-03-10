@@ -6,8 +6,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 import org.aspectj.lang.ProceedingJoinPoint;
-import org.aspectj.lang.Signature;
 import org.aspectj.lang.annotation.Around;
+import org.aspectj.lang.reflect.MethodSignature;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.util.ReflectionUtils;
@@ -74,8 +74,8 @@ public abstract class AbstractMetricMethodAspect<A extends Annotation, M> {
 	public Object arroundMethod(ProceedingJoinPoint pjp) throws Throwable {
 		try {
 			LOG.debug("Start - arroundMethod(...)");
-			AnnotationMetricPair<A, M> pair = getAnnotationMetricPair(pjp.getStaticPart().getSignature(),
-					getAnnotationClass());
+			AnnotationMetricPair<A, M> pair = getAnnotationMetricPair((MethodSignature) pjp.getStaticPart()
+					.getSignature(), getAnnotationClass());
 			if (pair != null) {
 				return invoke(pjp, pair);
 			} else {
@@ -102,13 +102,13 @@ public abstract class AbstractMetricMethodAspect<A extends Annotation, M> {
 	 *            the method signature
 	 * @return the annotationMetricPair<A, M>
 	 */
-	public AnnotationMetricPair<A, M> getAnnotationMetricPair(Signature signature, Class<A> annotationClass) {
+	public AnnotationMetricPair<A, M> getAnnotationMetricPair(MethodSignature signature, Class<A> annotationClass) {
 		Class<?> targetClass = signature.getDeclaringType();
 
 		String methodName = signature.getName();
 		LOG.debug("handling {} metric for the {} {} method", new Object[] { annotationClass.getName(), targetClass,
 				methodName });
-		Method method = ReflectionUtils.findMethod(targetClass, methodName);
+		Method method = ReflectionUtils.findMethod(targetClass, methodName, signature.getParameterTypes());
 		AnnotationMetricPair<A, M> pair = null;
 		if (method != null) {
 			pair = getAnnotationMetricPair(method, targetClass, annotationClass);
