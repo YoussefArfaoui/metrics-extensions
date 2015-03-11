@@ -1,6 +1,7 @@
 # metrics-extensions project
 
 [ ![Build Status] [travis-image] ] [travis]
+[ ![Release] [release-image] ] [releases]
 [ ![License] [license-image] ] [license]
 
  Add the metrics-config.xml file in your spring context by importing it in the correct spring configuration file.
@@ -40,6 +41,9 @@ All metrics annotations can be used with this module. example :
 
 [travis-image]: https://travis-ci.org/YoussefArfaoui/metrics-extensions.svg?branch=master
 [travis]: https://travis-ci.org/YoussefArfaoui/metrics-extensions
+
+[release-image]: https://github.com/YoussefArfaoui/metrics-extensions/releases/release-v0.0.1-blue.svg?style=flat
+[releases]: https://github.com/YoussefArfaoui/metrics-extensions/releases
 
 [license-image]: http://img.shields.io/badge/license-Apache--2-blue.svg?style=flat
 [license]: http://www.apache.org/licenses/LICENSE-2.0
