@@ -1,5 +1,7 @@
 # metrics-extensions project
 
+[![Build Status](https://travis-ci.org/YoussefArfaoui/metrics-extensions.svg)](https://travis-ci.org/YoussefArfaoui/metrics-extensions)
+
  Add the metrics-config.xml file in your spring context by importing it in the correct spring configuration file.
  
 ```xml
