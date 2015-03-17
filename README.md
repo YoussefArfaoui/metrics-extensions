@@ -7,6 +7,8 @@
 [ ![License] [license-image] ] [license]
 [ ![Forks] [forks-image] ] [forks]
 [![Maven Central](https://img.shields.io/maven-central/v/org.apache.maven/apache-maven.svg)]()
+[![Issue Stats](http://issuestats.com/github/YoussefArfaoui/metrics-extensions/badge/pr)](http://issuestats.com/github/YoussefArfaoui/metrics-extensions)
+[![Issue Stats](http://issuestats.com/github/YoussefArfaoui/metrics-extensions/badge/issue)](http://issuestats.com/github/YoussefArfaoui/metrics-extensions)
 
 
 
