@@ -4,6 +4,7 @@
 [ ![Issues] [issues-image] ] [issues]
 [ ![Release] [release-image] ] [releases]
 [ ![Tags] [tag-image] ] [tag]
+[![Codecov](https://img.shields.io/codecov/c/github/codecov/example-python.svg?style=plastic)]()
 [ ![License] [license-image] ] [license]
 [ ![Forks] [forks-image] ] [forks]
 [![Maven Central](https://img.shields.io/maven-central/v/org.apache.maven/apache-maven.svg)]()
