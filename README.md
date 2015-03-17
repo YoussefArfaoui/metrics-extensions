@@ -1,8 +1,12 @@
 # metrics-extensions project
 
 [ ![Build Status] [travis-image] ] [travis]
+[ ![Issues] [issues-image] ] [issues]
 [ ![Release] [release-image] ] [releases]
 [ ![License] [license-image] ] [license]
+[![GitHub forks](https://img.shields.io/github/forks/badges/shields.svg)]()
+[![GitHub tag](https://img.shields.io/github/tag/strongloop/express.svg?style=plastic)]()
+
 
  Add the metrics-config.xml file in your spring context by importing it in the correct spring configuration file.
  
@@ -49,6 +53,7 @@ All metrics annotations can be used with this module. example :
 [license]: http://www.apache.org/licenses/LICENSE-2.0
 [forks-image]: https://img.shields.io/github/forks/badges/shields.svg
 [issues-image]: https://img.shields.io/github/issues/badges/shields.svg
+[issues]:https://github.com/YoussefArfaoui/metrics-extensions/issues
 [maven-image]: https://img.shields.io/maven-central/v/org.apache.maven/apache-maven.svg
 [tag-image]: https://img.shields.io/github/tag/strongloop/express.svg
 [maven-image]: https://img.shields.io/maven-central/v/org.apache.maven/apache-maven.svg
