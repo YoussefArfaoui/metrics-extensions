@@ -42,9 +42,18 @@ All metrics annotations can be used with this module. example :
 [travis-image]: https://travis-ci.org/YoussefArfaoui/metrics-extensions.svg?branch=master
 [travis]: https://travis-ci.org/YoussefArfaoui/metrics-extensions
 
-[release-image]: https://github.com/YoussefArfaoui/metrics-extensions/releases/release-v0.0.1-blue.svg?style=flat
+[release-image]: https://img.shields.io/github/release/qubyte/rubidium.svg?style=plastic
 [releases]: https://github.com/YoussefArfaoui/metrics-extensions/releases
 
-[license-image]: http://img.shields.io/badge/license-Apache--2-blue.svg?style=flat
+[license-image]: http://img.shields.io/badge/license-Apache--2-blue.svg?style=plastic
 [license]: http://www.apache.org/licenses/LICENSE-2.0
+[forks-image]: https://img.shields.io/github/forks/badges/shields.svg
+[issues-image]: https://img.shields.io/github/issues/badges/shields.svg
+[maven-image]: https://img.shields.io/maven-central/v/org.apache.maven/apache-maven.svg
+[tag-image]: https://img.shields.io/github/tag/strongloop/express.svg
+[maven-image]: https://img.shields.io/maven-central/v/org.apache.maven/apache-maven.svg
+[maven-image]: https://img.shields.io/maven-central/v/org.apache.maven/apache-maven.svg
+
+
+
 
