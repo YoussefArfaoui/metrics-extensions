@@ -1,7 +1,14 @@
 # metrics-extensions project
 
 [ ![Build Status] [travis-image] ] [travis]
+[ ![Issues] [issues-image] ] [issues]
+[ ![Release] [release-image] ] [releases]
+[ ![Tags] [tag-image] ] [tag]
 [ ![License] [license-image] ] [license]
+[ ![Forks] [forks-image] ] [forks]
+[![Maven Central](https://img.shields.io/maven-central/v/org.apache.maven/apache-maven.svg)]()
+
+
 
  Add the metrics-config.xml file in your spring context by importing it in the correct spring configuration file.
  
@@ -41,6 +48,20 @@ All metrics annotations can be used with this module. example :
 [travis-image]: https://travis-ci.org/YoussefArfaoui/metrics-extensions.svg?branch=master
 [travis]: https://travis-ci.org/YoussefArfaoui/metrics-extensions
 
-[license-image]: http://img.shields.io/badge/license-Apache--2-blue.svg?style=flat
+[release-image]: https://img.shields.io/github/release/qubyte/rubidium.svg?style=plastic
+[releases]: https://github.com/YoussefArfaoui/metrics-extensions/releases
+
+[license-image]: http://img.shields.io/badge/license-Apache--2-blue.svg?style=plastic
 [license]: http://www.apache.org/licenses/LICENSE-2.0
+[forks-image]: https://img.shields.io/github/forks/badges/shields.svg?style=plastic
+[forks]:https://github.com/YoussefArfaoui/metrics-extensions/network
+[issues-image]: https://img.shields.io/github/issues/badges/shields.svg?style=plastic
+[issues-raw-image]: https://img.shields.io/github/issues-raw/badges/shields.svg?style=plastic
+[issues]:https://github.com/YoussefArfaoui/metrics-extensions/issues
+[maven-image]: https://img.shields.io/maven-central/v/org.apache.maven/apache-maven.svg
+[tag-image]: https://img.shields.io/github/tag/strongloop/express.svg?style=plastic
+[tag]: https://github.com/YoussefArfaoui/metrics-extensions/tags
+
+
+
 
