@@ -3,9 +3,11 @@
 [ ![Build Status] [travis-image] ] [travis]
 [ ![Issues] [issues-image] ] [issues]
 [ ![Release] [release-image] ] [releases]
+[ ![Tags] [tag-image] ] [tag]
 [ ![License] [license-image] ] [license]
-[![GitHub forks](https://img.shields.io/github/forks/badges/shields.svg)]()
-[![GitHub tag](https://img.shields.io/github/tag/strongloop/express.svg?style=plastic)]()
+[ ![Forks] [forks-image] ] [forks]
+[![Maven Central](https://img.shields.io/maven-central/v/org.apache.maven/apache-maven.svg)]()
+
 
 
  Add the metrics-config.xml file in your spring context by importing it in the correct spring configuration file.
@@ -51,13 +53,14 @@ All metrics annotations can be used with this module. example :
 
 [license-image]: http://img.shields.io/badge/license-Apache--2-blue.svg?style=plastic
 [license]: http://www.apache.org/licenses/LICENSE-2.0
-[forks-image]: https://img.shields.io/github/forks/badges/shields.svg
-[issues-image]: https://img.shields.io/github/issues/badges/shields.svg
+[forks-image]: https://img.shields.io/github/forks/badges/shields.svg?style=plastic
+[forks]:https://github.com/YoussefArfaoui/metrics-extensions/network
+[issues-image]: https://img.shields.io/github/issues/badges/shields.svg?style=plastic
+[issues-raw-image]: https://img.shields.io/github/issues-raw/badges/shields.svg?style=plastic
 [issues]:https://github.com/YoussefArfaoui/metrics-extensions/issues
 [maven-image]: https://img.shields.io/maven-central/v/org.apache.maven/apache-maven.svg
-[tag-image]: https://img.shields.io/github/tag/strongloop/express.svg
-[maven-image]: https://img.shields.io/maven-central/v/org.apache.maven/apache-maven.svg
-[maven-image]: https://img.shields.io/maven-central/v/org.apache.maven/apache-maven.svg
+[tag-image]: https://img.shields.io/github/tag/strongloop/express.svg?style=plastic
+[tag]: https://github.com/YoussefArfaoui/metrics-extensions/tags
 
 
 
