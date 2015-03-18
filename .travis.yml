@@ -8,4 +8,4 @@ jdk:
 before_install:
   sudo pip install codecov
 after_success:
-  codecov
+  - mvn clean test jacoco:report coveralls:report
