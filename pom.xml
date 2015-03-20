@@ -22,7 +22,8 @@
 		<org.aspectj.version>1.8.5</org.aspectj.version>
 		<org.springframework.version>3.2.8.RELEASE</org.springframework.version>
 		<cglib.version>3.1</cglib.version>
-
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
 
 	<dependencies>
